@@ -10,9 +10,9 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Builder
-@Table(name = "Articles")
+@Table(name = "Post")
 @Entity
-public class Article {
+public class Post {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
